@@ -1,1 +1,176 @@
-// Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+.banner{
+  width:100%;
+}
+.section_1{
+  background: linear-gradient(#3286b6, #4fa1c4);
+}
+.slika_1{
+  width:100%;
+  text-align:center;
+  align-items:center;
+  object-fit:center;
+}
+.slika_2{
+  width:100%;
+  text-align:center;
+  align-items:center;
+  object-fit:center;
+}
+.slika_3{
+  height: 50%;
+  text-align:center;
+  align-items:center;
+  object-fit:center;
+}
+.header_1{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 60px;
+}
+.header_2{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 55px;
+}
+.para_1{
+  font-size:23px;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.para_4{
+  font-size:23px;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align:left;
+}
+.para_4_2{
+  font-size:15px;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align:left;
+}
+.section_2{
+  background:#f47a20;
+  border-radius: 20px;
+  padding: 40px;
+}
+.section_2_slike_row_1{
+  border-right: 1px solid #fff;
+}
+.vl{
+  border-left: 1px solid #fff;
+}
+.slika_5{
+  width:90%;
+}
+.section_mob{
+  background:#004282;
+  padding-top:200px;
+}
+.section_mob_2{
+  background:#00538a;
+  padding-top:50px;
+  margin:0;
+}
+.contact-form{
+  background:#367da4;
+}
+footer{
+  padding: 100px 0;
+  text-align:center;
+}
+
+.fab {
+  padding: 13px;
+  font-size: 50px;
+  color:#00538a;
+  border: solid 3px #00538a;
+  text-align: center;
+  border-radius:50%;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fab:hover {
+    opacity: 0.8;
+    text-decoration:none;
+    color:#00538a;
+}
+.placeholder{
+  color:#fff;
+
+}
+.fl-table{
+  padding-bottom:50px;
+  width:100%;
+  th{
+    padding: 10px 0;
+  }
+  thead{
+    background:#fff;
+    color:#00538a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size:20px;
+  }
+  td{
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 7px 0;
+    font-size:20px;
+    border-top: solid 1px #fff;
+  }
+}
+
+form{
+  text-align:left;
+  label{
+    color:#fff;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  input{
+
+    border: 0;
+    height:40px;
+  }
+  label
+{
+    display: block;
+}
+
+label span
+{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+}
+@media (max-width: 600px){
+  .slika_2{
+    width:70%;
+    margin: 0 auto;
+    object-fit:center;
+  }
+  .section_2_slike_row_1{
+  border-right: none;
+  border-right: 0;
+  padding-bottom:40px;
+}
+.para_4_2{
+  text-align:center;
+}
+  .para_4{
+  text-align:center;
+}
+
+}

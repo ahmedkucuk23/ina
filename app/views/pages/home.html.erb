@@ -1,2 +1,155 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= image_tag "webanner.png", class: "banner" %>
+<div class="section_1">
+  <div class="container">
+    <div class="section_1_slike d-flex row" style="padding-top: 50px; padding-bottom: 70px;">
+      <div class="section_1_slike_row col-lg-6 col-md-6">
+        <%= image_tag "Group24.png", class: "slika_1" %>
+      </div>
+      <div class="section_1_slike_row col-lg-6 col-md-6">
+        <%= image_tag "group34.png", class: "slika_1" %>
+      </div>
+    </div>
+
+    <div class="section_1_hif d-flex row align-items-center justify-content-center" style="text-align: center;">
+      <div class="section_1_hif_slika justify-content-center col-lg-3 col-md-5 col-sm-8 col-xs-8">
+        <%= image_tag "hif2.png", class: "slika_2" %>
+      </div>
+      <div class="section_1_hif_text col-lg-9 col-md-7 col-sm-12" style="text-align: left;">
+        <h1 class="header_1">KAKO UČESTVOVATI?</h1>
+        <p class="para_1"><strong>Natočite 20 litara Class Plus</strong> goriva na svim <b>INA i Energopetrol</b> maloprodajnim mjestima u FBiH od <b>01.12.2021.</b> do <b>31.01.2022.</b> godine, <b>prijavite se i osvojite</b> jednu od <b>180 vrijednih nagrada</b> u <b>gorivu</b> ili <b>automobil Golf 8!</b></p>
+      </div>
+    </div>
+    <p class="para_1" style="padding-top: 60px; padding-bottom: 60px; ">U nagradnoj igri možete učestvovati svakom kupovinom najmanje 20 litara goriva. Osigurajte veću šansu slanjem do 20 prijava sa 20 različitih brojeva računa poslanih uz isti kontakt broj mobitela. </p>
+    <h1 class="header_2" style="text-transform: uppercase;">Učestvujte na jedan od dva načina:</h1>
+    <div class="section_2 d-flex row justify-content-center" style="margin: 50px 0 0px 0; z-index: 6; position: relative; top: 200px; margin-top: -180px;">
+       <div class="section_2_slike_row_1 col-lg-6 col-md-6 justify-content-center" style="text-align: center;">
+        <%= image_tag "Layer10.png", class: "slika_3" %>
+        <p class="para_4" style="margin-bottom: 0;">Prijavite se <b>SMS porukom</b> sa brojem računa kase i ličnim podacima u formi <b>BROJ RAČUNA KASE</b> (razmak) <b>IME I PREZIME</b> na <b>091 212 409.</b></p>
+        <p class="para_4_2">* Cijena SMS-a iznosi 0,234 KM s PDV-om</p>
+      </div>
+
+      <div class="section_2_slike_row col-lg-6 col-md-6 justify-content-center" style="text-align: center;">
+        <%= image_tag "mob2.png", class: "slika_3" %>
+        <p class="para_4"><b>Prijavite se besplatno online,</b> ispunite obrazac ispod sa podacima: broj računa, ime i prezime i broj telefona.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section_mob">
+  <%= image_tag "webmob.png", class: "slika_5" %>
+</div>
+
+<div class="section_1">
+  <div class="container" style="padding-bottom: 50px;">
+    <h1 class="header_1" style="text-align: center; padding-top:70px;">Raspored odabira i objava dobitnika</h1>
+    <p class="para_1" style="text-align: center; padding-bottom: 50px;">
+      Izvlačenje ukupno 181 dobitnika nagrada će biti raspoređeno u devet valova nagradne igre. <br>
+      Dobitnici će se izvlačiti prema rasporedu utvrđenom pravilnikom, elektronskim putem. <br><br>
+      Dobitnici sedmičnih nagrada objavljivat će se u nastavku stranice. <br><br>
+      Priređivač zadržava pravo tražiti na uvid račun za kupovinu goriva.<br><br>
+      Sve detalje o nagradnoj igri možete pronaći u <a href="https://getbootstrap.com/docs/4.0/utilities/flex/" class="para_1" style="text-decoration: underline;">PRAVILNIKU.</a><br><br>
+    </p>
+    <div class="contact-form" >
+      <div class="container d-flex flex-column justify-content-center">
+
+      <h1 class="header_1" style="text-align: center; text-transform: uppercase; padding-top: 50px;">Ispunite obrazac <br>i učestvujte!</h1>
+
+      <form  class="justify-content-center"style="padding-bottom: 50px;">
+        <label>
+            <span>Name</span>
+            <input type="text" />
+        </label>
+        <label>
+            <span>Email</span>
+            <input type="email" />
+        </label>
+        <label>
+            <span>Password</span>
+            <input type="password" />
+        </label>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section_mob_2" style="padding-bottom:50px;">
+  <div class="container">
+    <h1 class="header_1" style="text-align:center; padding-bottom: 50px; margin-bottom: 0;">LISTA DOBITNIKA</h1>
+
+    <div class="table-wrapper" style="text-align:center;">
+      <table class="fl-table">
+          <thead style="text-align: center; padding:20px 0;">
+          <tr>
+              <th>Krug nagradne igre</th>
+              <th>Nagrada</th>
+              <th>Dobitnici</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td>1.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>2.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>3.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>4.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>5.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>6.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>7.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>8.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>9.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM</td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tr>
+              <td>10.</td>
+              <td>20 x kartica za gorivo u vrijednosti 100 KM <br>i GOLF 8 </td>
+              <td>Lista Dobitnika</td>
+          </tr>
+          <tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+<footer style="background: #fff;">
+  <div class="container">
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-facebook"></a>
+    <a href="#" class="fab fa-linkedin"></a>
+
+  </div>
+</footer>
