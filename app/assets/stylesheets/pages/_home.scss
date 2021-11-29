@@ -4,7 +4,13 @@
   width:100%;
 }
 .section_1{
-  background: linear-gradient(#3286b6, #4fa1c4);
+  background: url("back_1.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.section_1_back_2{
+  background: url("back2.png");
+  background-size: cover;
 }
 .slika_1{
   width:100%;
@@ -23,6 +29,7 @@
   text-align:center;
   align-items:center;
   object-fit:center;
+  padding-bottom:10px;
 }
 .header_1{
   font-family: 'Open Sans', sans-serif;
@@ -57,7 +64,7 @@
   text-align:left;
 }
 .section_2{
-  background:#f47a20;
+  background:#004282;
   border-radius: 20px;
   padding: 40px;
 }
@@ -68,11 +75,11 @@
   border-left: 1px solid #fff;
 }
 .slika_5{
-  width:90%;
+  width:100%;
+  padding-bottom:30px;
 }
 .section_mob{
   background:#004282;
-  padding-top:200px;
 }
 .section_mob_2{
   background:#00538a;
@@ -80,16 +87,20 @@
   margin:0;
 }
 .contact-form{
-  background:#367da4;
+  background: rgba(54, 125, 164, 0.4);
 }
 footer{
   padding: 100px 0;
   text-align:center;
 }
+.background_blue{
+  background:#004282;
+  height:20px;
+}
 
 .fab {
-  padding: 13px;
-  font-size: 50px;
+  padding: 10px;
+  font-size: 40px;
   color:#00538a;
   border: solid 3px #00538a;
   text-align: center;
@@ -157,9 +168,10 @@ label span
 }
 @media (max-width: 600px){
   .slika_2{
-    width:70%;
+    width:40%;
     margin: 0 auto;
     object-fit:center;
+    padding: 10px 0 30px 0;
   }
   .header_1{
     font-size:45px;
